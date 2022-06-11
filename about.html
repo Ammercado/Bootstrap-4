@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+  <!-- build:css css/index.css  -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css" />
+<!-- endbuild  -->
+    <title>Web Hosting</title>
+  </head>
+  <body>
+     <!--NAVEGACION DEL SITIO-->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+    <a class="nav-brand" href="./index.html">Web Hosting</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto justify-content-end">
+        <li class="nav-item active">
+          <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">Nosotros</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Servicios
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./lista.html">Web Hosting</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <button type="button" id="areaBtn" class="btn btn-outline-primary" data-toggle="modal" data-target="#modelId">
+            AREA DEL CLIENTE
+          </button>
+        </li>
+  </nav>
+  <!--Finaliza la Navegacion-->
+    <div class="jumbotron ">
+      <h1 class="text">Web Hosting</h1>
+    </div>
+    <div class="container">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="./index.html"><span class="oi oi-home"></span></a></li>
+              <li class="breadcrumb-item" aria-current="page">Nosotros</li>
+            </ol>
+          </nav>
+          <span>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquam ornare nisl et euismod. Praesent blandit nunc eu consectetur auctor. Quisque ut enim magna. Aliquam commodo commodo est, quis congue velit condimentum sit amet. Vivamus interdum volutpat elit, vitae vulputate dui dapibus vitae. Aliquam et sem a est ullamcorper tempor. Fusce eu tristique ligula. Donec fringilla tellus vel mauris auctor, non pellentesque mi efficitur. Pellentesque urna tellus, finibus id pulvinar a, placerat a augue. 
+            Mauris erat metus, convallis at urna sed, pretium elementum tortor. Maecenas facilisis in turpis vitae elementum. Aliquam euismod tempus sollicitudin. Integer eget augue ex. Vestibulum hendrerit eu ligula cursus faucibus. Suspendisse at auctor quam.
+          </span>
+ 
+    </div>
+     <!--MODAL DE LOGIN-->
+     <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Iniciar Sesion</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-sm-6">
+                  <label for="nombre">Correo Electronico</label>
+                  <input type="email" class="form-control" id="email" placeholder="Ingrese su Correo Electronico">
+                </div>
+                <div class="form-group col-sm-6">
+                  <label for="apellido">Contraseña</label>
+                  <input type="password" class="form-control" id="password" placeholder="********">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label for="contactame">Recordar mis datos</label>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Registrarse</button>
+            <button type="button" class="btn btn-primary">Entrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!--MODAL DE LOGIN-->
+    <footer>
+      <div class="row">
+        <div class="col-sm-4 d-flex flex-column">
+          <a href="#"><span class="iconic iconic-social-instagram iconic-sm"></span>Instagram</a>
+          <a href="#">Twitter</a>
+        </div>
+        <div class="col-sm-4">
+          <addres>
+            <p><span class="oi oi-map-marker mr-1"></span>Lomas de Zamora, Buenos Aires, Argentina</p>
+            <p>webhosting@webhosting.com</p>
+          </addres>
+        </div>
+        <div class="col-sm-4 d-flex flex-column">
+          <a href="./contacto.html">Contactanos</a>
+          <a href="#">Terminos y Condiciones</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- build:js js/index.js  -->
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
+  <!-- endbuild -->
+  </body>
+</html>

@@ -1,0 +1,61 @@
+h5 {
+  text-align: center; }
+
+/*****AREA DE MARCA*****/
+.jumbotron {
+  background-image: url("/images/header.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0px; }
+
+.text {
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  -webkit-text-stroke: 2px #000000; }
+
+/*****AREA DE NAVEGACION*****/
+.dropdown-menu {
+  background-color: #22c938; }
+
+.dropdown-menu a {
+  color: #ffffff; }
+
+.dropdown-item:hover {
+  background-color: #312f2f;
+  color: #22c938; }
+
+/*****AREA DE INFORMACION DE SERVICIO*****/
+.card-about {
+  background-color: #e1eb34;
+  padding: 10px 0px 10px 0px;
+  border-radius: 0px 0px 5px 5px; }
+
+/*****AREA DE PLANES*****/
+.card-plan {
+  flex: 1 200px;
+  padding: 10px 0px 10px 0px;
+  margin-top: 10px; }
+
+.btn-reserva {
+  background-color: #22c938;
+  width: 100%;
+  border-radius: 0px; }
+
+.text-center a {
+  color: #000000; }
+
+/*****TAB*****/
+.tab-content {
+  padding: 5px 0px 0px 0px; }
+
+/*****AREA FOOTER*****/
+footer {
+  color: #ffffff;
+  padding: 20px 20px 20px 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  background-color: #c92522;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

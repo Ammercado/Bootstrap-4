@@ -1,0 +1,74 @@
+$white:#ffffff;
+$black:#000000;
+$yellow: #e1eb34;
+$red:#c92522;
+$green:#22c938;
+@mixin margenes($top, $bottom){
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+@mixin padding($top, $left, $bottom, $right){
+  padding: $top $left $bottom $right;
+}
+
+  h5 {
+    text-align: center;
+  }
+  /*****AREA DE MARCA*****/
+  .jumbotron {
+    background-image: url("/images/header.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px;
+  }
+  .text {
+    text-align: center;
+    color: $white;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px $black;
+  }
+  /*****AREA DE NAVEGACION*****/
+  .dropdown-menu {
+    background-color: $green;
+  }
+  .dropdown-menu a {
+    color: $white;
+  }
+  .dropdown-item:hover {
+    background-color: rgb(49, 47, 47);
+    color: $green;
+  }
+  /*****AREA DE INFORMACION DE SERVICIO*****/
+  .card-about {
+    background-color: $yellow;
+    padding: 10px 0px 10px 0px;
+    border-radius: 0px 0px 5px 5px ;
+  }
+  /*****AREA DE PLANES*****/
+  .card-plan {
+    flex: 1 200px;
+    padding: 10px 0px 10px 0px;
+    margin-top: 10px;
+  }
+  .btn-reserva {
+    background-color: $green;
+    width: 100%;
+    border-radius: 0px;
+  }
+  .text-center a {
+    color: $black;
+  }
+  /*****TAB*****/
+  .tab-content{
+    padding: 5px 0px 0px 0px;
+  }
+  
+  /*****AREA FOOTER*****/
+  footer {
+    color: $white;
+    padding: 20px 20px 20px 20px;
+    @include margenes(10px, 0px);
+    background-color: $red;
+    text-align: center;
+  }
+  
